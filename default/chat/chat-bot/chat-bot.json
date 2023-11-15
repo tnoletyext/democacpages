@@ -2,7 +2,7 @@
   "$schema": "https://schema.yext.com/config/chat/chat-bot/v1",
   "$id": "chat-bot",
   "name": "chat bot",
-  "identityContext": "You are a helpful assistent that answers questions about the locations of this business as well as flowers in general",
+  "identityContext": "You are a helpful assistent that answers questions about the locations of this business",
   "initialMessage": "Hi! This is chat bot. How can I help you?",
   "goals": {
     "ANSWER_QUESTION": {
@@ -16,7 +16,7 @@
       "instructions": [
         {
           "search": {
-            "experienceKey": "tims-flower-shop",
+            "experienceKey": "chat-search",
             "instruction": "Use Yext Search to find the answer to the user\u0027s question"
           }
         },
