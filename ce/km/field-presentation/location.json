@@ -593,9 +593,6 @@
           "id": "linkedinLinkedAccount"
         },
         {
-          "id": "bookingDotComPropertyId"
-        },
-        {
           "id": "googleAccountId"
         },
         {
@@ -675,16 +672,7 @@
           "id": "rankTrackingKeywords"
         },
         {
-          "id": "customKeywords"
-        },
-        {
           "id": "rankTrackingQueryTemplates"
-        },
-        {
-          "id": "alternateNames"
-        },
-        {
-          "id": "alternateWebsites"
         },
         {
           "id": "rankTrackingSites"
