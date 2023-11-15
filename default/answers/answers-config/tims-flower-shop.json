@@ -1,7 +1,7 @@
 {
   "$schema": "https://schema.yext.com/config/answers/answers-config/v1",
-  "$id": "tims-flower-shop",
-  "name": "Tim\u0027s Flower Shop",
+  "$id": "chat-search",
+  "name": "Search",
   "supportedLocales": [],
   "countryRestrictions": [],
   "verticals": {
