@@ -1,0 +1,34 @@
+{
+  "$id": "reviews",
+  "$schema": "https://schema.yext.com/config/streams/streams-endpoint/v2",
+  "name": "reviews",
+  "stream": {
+    "source": "reviews",
+    "fields": [
+      "entity.id",
+      "authorName",
+      "rating",
+      "reviewDate",
+      "content"
+    ],
+    "filter": {
+      "publishers": [
+        "FACEBOOK",
+        "EXTERNALFIRSTPARTY",
+        "GOOGLEMYBUSINESS",
+        "FIRSTPARTY"
+      ]
+    }
+  },
+  "fieldIndexes": [
+    {
+      "field": "entity.id"
+    },
+    {
+      "field": "rating"
+    },
+    {
+      "field": "reviewDate"
+    }
+  ]
+}

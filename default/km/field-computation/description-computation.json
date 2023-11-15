@@ -1,0 +1,13 @@
+{
+  "$id": "description-computation",
+  "$schema": "https://schema.yext.com/config/km/field-computation/v1",
+  "field": "description",
+  "computationMethod": "genericDescription",
+  "systemControlled": false,
+  "inputs": {
+    "additionalInstructions": "Write in [[c_language]] in a [[c_toneOfVoice]] tone of voice",
+    "maxLength": "750 characters",
+    "subjectDetails": "Name: [[name]]\nSpecialises in: [[c_specialties]]\nKeywords:  [[keywords]]",
+    "subjectType": "Business"
+  }
+}

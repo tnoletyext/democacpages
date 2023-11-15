@@ -1,0 +1,70 @@
+{
+  "$schema": "https://schema.yext.com/config/answers/answers-config/v1",
+  "$id": "tims-flower-shop",
+  "name": "Tim\u0027s Flower Shop",
+  "supportedLocales": [],
+  "countryRestrictions": [],
+  "verticals": {
+    "locations": {
+      "directAnswers": {
+        "fieldValues": {
+          "eligibleFields": [
+            "hours"
+          ],
+          "predictionMode": "FIELD_NAME"
+        }
+      },
+      "entityTypes": [
+        "location"
+      ],
+      "name": "Locations",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "builtin.hours": {
+          "nlpFilter": true
+        },
+        "builtin.location": {
+          "nlpFilter": true
+        },
+        "keywords": {
+          "phraseMatch": true
+        },
+        "name": {
+          "textSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "YEXT"
+    }
+  },
+  "synonyms": {
+    "oneWay": [],
+    "synonymSet": [
+      [
+        "hours ",
+        "openingstijden",
+        "opening hours",
+        "open",
+        "geopend"
+      ]
+    ],
+    "normalization": []
+  },
+  "localizations": {},
+  "additionalSearchablePlaces": [],
+  "querySuggestions": {
+    "disablePopularQueries": false,
+    "verticalPromptsOnEmpty": false,
+    "popularQueriesBlacklistedTerms": [],
+    "popularQueriesBlacklistedRegex": [],
+    "universalPrompts": [],
+    "verticalPrompts": {
+      "locations": [
+        "Locations near [[address.city]]",
+        "Locations near [[address.region]]"
+      ]
+    }
+  }
+}
